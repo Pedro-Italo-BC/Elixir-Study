@@ -5,9 +5,11 @@ defmodule ListLength do
     idx
   end
 
+
+
   defp getLenght([_head | tail], idx) do
     idx = idx + 1
 
-    getLenght(tail, idx)
+   getLenght(tail, idx)
   end
 end
